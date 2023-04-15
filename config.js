@@ -59,26 +59,26 @@ global.nomorwa = '0'
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ WM ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 
 global.readMore = readMore
-global.author = 'Milos69'
-global.namebot = '​ Apacoba Bot Wangsaff'
-global.wm = '© Apacoba Bot Wangsaff By Milos69'
+global.author = 'Ryzn'
+global.namebot = 'NaoBotz'
+global.wm = '© NaoBotz By Milos69'
 global.media = 'https://telegra.ph/file/5d45a3d1e12726d98c5e4.jpg'
-global.wm = 'Milos69 '
+global.wm = 'Ryzn '
 global.watermark = wm
-global.wm2 = 'Milos69 '
+global.wm2 = 'Ryzn '
 global.botdate = `⫹⫺ DATE: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 global.bottime = `T I M E : ${wktuwib}`
-global.titlebot = `Apacoba Bot Wangsaff`
-global.stickpack = 'Nyolong Mandul 69 Turunan'
-global.stickauth = `Milo69`
+global.titlebot = `NaoBotz`
+global.stickpack = 'NaoBotz'
+global.stickauth = `© Ryzn`
 global.week = `${week} ${date}`
 global.wibb = `${wktuwib}`
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ OWNER INFO ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.nameown1= 'Milos69'
-global.nameown2 = '-'
+global.nameown1= 'Ryzn'
+global.nameown2 = 'Ryzn'
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ MEDIA LINK ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 global.Linkgc = 'Bentar'
-global.lynk = 'https://rens.my.id'
+global.lynk = 'https://lynk.id/hyuuraofc'
 
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ MEDIA SOSSIAL ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
@@ -89,12 +89,12 @@ global.sdc = '-' //discord
 global.snh = '-'
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ DONASI ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.pdana = '-'
+global.pdana = '0813 8730 7198'
 global.povo = '-'
-global.pgopay = '-'
+global.pgopay = ''
 global.plinkaja = '-' //link aja
-global.ppulsa = '-'
-global.ppulsa2 = '-'
+global.ppulsa = '0813 8730 7198'
+global.ppulsa2 = '0813 8730 7198'
 global.psaweria = '-'
 
 
@@ -244,7 +244,6 @@ global.APIs = { // API Prefix
 
 global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
-  'https://api2.trizy.co': 'trizy',
   'https://api.xteam.xyz': 'ebb6251cc00f9c63',
   'https://anabotofc.herokuapp.com/': 'AnaBot',
   'https://api.lolhuman.xyz': 'SGWN',
@@ -269,17 +268,17 @@ global.dxlsx = 'application/vnd.openxmlformats-officedocument.spreadsheetml.shee
 global.dpdf = 'application/pdf'
 global.drtf = 'text/rtf'
 //OPTIONS
-global.optsnsfw = false // Untuk mematikan Dan Menyalakan Nsfw
-global.premnsfw = false // Nsfw Mode Premium?
-global.thumb = 'https://drivekj.my.id/0:/Data/Test%20/184777218_805403186781769_9159053980684568787_n.jpg' //Main Thumbnail
-global.imagebot = 'https://drivekj.my.id/0:/Data/Test%20/184777218_805403186781769_9159053980684568787_n.jpg'
-global.giflogo = 'https://drivekj.my.id/0:/Data/Test%20/184777218_805403186781769_9159053980684568787_n.jpg'
-global.thumbs = ['https://drivekj.my.id/0:/Data/Test%20/184777218_805403186781769_9159053980684568787_n.jpg']
+global.optsnsfw = true // Untuk mematikan Dan Menyalakan Nsfw
+global.premnsfw = true // Nsfw Mode Premium?
+global.thumb = 'https://telegra.ph/file/a7ac2b46f82ef7ea083f9.jpg' //Main Thumbnail
+global.imagebot = 'https://telegra.ph/file/a7ac2b46f82ef7ea083f9.jpg'
+global.giflogo = 'https://telegra.ph/file/a7ac2b46f82ef7ea083f9.jpg'
+global.thumbs = ['https://telegra.ph/file/a7ac2b46f82ef7ea083f9.jpg']
 global.thumbnailUrl = [
   'https://telegra.ph/file/ef4b742d47e6a9115e2ff.jpg'
 ]
-global.fotonya1 = 'https://drivekj.my.id/0:/Data/Test%20/184777218_805403186781769_9159053980684568787_n.jpg' //ganti jadi foto bot mu
-global.fotonya2 = 'https://drivekj.my.id/0:/Data/Test%20/184777218_805403186781769_9159053980684568787_n.jpg' //ini juga ganti 
+global.fotonya1 = 'https://telegra.ph/file/f6e750a5f247dcb767f81.jpg' //ganti jadi foto bot mu
+global.fotonya2 = 'https://telegra.ph/file/f6e750a5f247dcb767f81.jpg' //ini juga ganti 
 global.flaaa2 = [
  "https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=water-logo&script=water-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextColor=%23000&shadowGlowColor=%23000&backgroundColor=%23000&text=",
  "https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=crafts-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&text=",
@@ -307,9 +306,9 @@ global.hoppai = ['https://telegra.ph/file/f34d76df4a2065af1a5ba.jpg','https://te
 'https://telegra.ph/file/180e28807e78419d45537.jpg','https://telegra.ph/file/140eff27be983e0cd6781.jpg','https://telegra.ph/file/1581b791e16d0029e16b5.jpg','https://telegra.ph/file/6a4b36372b4f265bae3bc.jpg','https://telegra.ph/file/093caff422f194f00bc6c.jpg','https://telegra.ph/file/2294b7ab49eca8a8046b2.jpg','https://telegra.ph/file/869224d1c417e8b5c8ff1.jpg','https://telegra.ph/file/a78443f0ee887f46808d7.jpg','https://telegra.ph/file/1889878933264d16c58bf.jpg','https://telegra.ph/file/735aeb47d9c4aa87aaaf3.jpg','https://telegra.ph/file/fcf861516db09dda164e0.jpg','https://telegra.ph/file/355d96d7e06d109435f67.jpg']
 
 
-global.dtu = 'APACOBA'
-global.urlnya = "https://drivekj.my.id/0:/Data/"
-global.dtc = 'CALL OWNER'
+global.dtu = 'AIO WEB'
+global.urlnya = "https://rens.my.id"
+global.dtc = 'APA COBA'
 global.phn = '0'
 
 
