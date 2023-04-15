@@ -43,16 +43,16 @@ handler.all = async function (m) {
 					title: global.ucapan,
 					body: "Hallo " + name,
 					mediaUrl: sgc,
-					description: 'Nao-Botz',
+					description: 'Apacoba Bot Wangsaff',
 					previewType: "PHOTO",
 					thumbnail: await (await fetch(pp)).buffer(),
-					sourceUrl: "https://github.com/ShirokamiRyzen",					
+					sourceUrl: "https://drivekj.my.id/0:/Data/",					
 				}
 			}
 		}
 		global.fakeig = {
          contextInfo: { externalAdReply: { showAdAttribution: true,
-            title: 'Nao-Botz',
+            title: 'Apacoba Bot Wangsaff',
             body: wm,
             thumbnailUrl: pp,
             sourceUrl: sgc
