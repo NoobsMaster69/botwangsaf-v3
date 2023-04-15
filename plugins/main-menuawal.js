@@ -380,7 +380,7 @@ let tags = {
                 {
                     urlButton: {
                         displayText: `${namebot}`,
-                        url: 'https://github.com/ShirokamiRyzen/Nao-MD'
+                        url: 'https://drivekj.my.id/0:/Data/'
                     }
                 },
                 {
