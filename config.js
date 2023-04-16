@@ -82,16 +82,16 @@ global.lynk = 'https://lynk.id/hyuuraofc'
 
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ MEDIA SOSSIAL ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.sig = '-'
-global.sgh = '-' //github
+global.sig = 'https://www.instagram.com'
+global.sgh = 'https://github.com' //github
 global.sgc = '-' //group whatsapp
 global.sdc = '-' //discord
-global.snh = '-'
+global.snh = 'https://www.youtube.com'
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ DONASI ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 global.pdana = '0813 8730 7198'
 global.povo = '-'
-global.pgopay = ''
+global.pgopay = '0813 8730 7198'
 global.plinkaja = '-' //link aja
 global.ppulsa = '0813 8730 7198'
 global.ppulsa2 = '0813 8730 7198'
@@ -309,7 +309,7 @@ global.hoppai = ['https://telegra.ph/file/f34d76df4a2065af1a5ba.jpg','https://te
 global.dtu = 'AIO WEB'
 global.urlnya = "https://rens.my.id"
 global.dtc = 'APA COBA'
-global.phn = '0'
+global.phn = '0813 8730 2312'
 
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ JNGN DI UBAH ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
