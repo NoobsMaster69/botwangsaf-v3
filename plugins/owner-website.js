@@ -3,17 +3,16 @@ let handler = async (m, { conn }) => {
   let caption = `
 *「 Owner Website 」*
 
-Main Pages -> ryzn.my.id
-Blogspot -> www.win-tweak.my.id
+AIO INDEX -> rens.my.id
+Data Base Flm -> https://drivekj.my.id/0:/
 Uptime -> uptime.ryzn.my.id
 
 ----------------------
-Prosekai Sticker Maker -> sekai.ryzn.my.id
+APA COBA
 ----------------------
 
-Revanced -> ryzn.my.id/revanced
-Spotify Mod -> ryzn.my.id/spotify
-Mod Manager -> ryzn.my.id/mods
+Film -> https://drivekj.my.id/0:/Data/Film%20&%20Tv%20Series/
+Software -> https://drivekj.my.id/0:/Data/Software%20&%20OS/
 `.trim()
   m.reply(caption)
 }
