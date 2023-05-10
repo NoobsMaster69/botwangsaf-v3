@@ -256,7 +256,7 @@ global.APIKeys = { // APIKey Here
   'https://botstyle-api.herokuapp.com': 'Apikeymu',
   'https://hardianto.xyz': 'hardianto',
   'https://violetics.pw': 'beta',
-  'https://ziy.herokuapp.com' : 'xZiyy'
+  'https://ziy.herokuapp.com' : 'xZiyy',
   'https://api2.trizy.co' : 'trizy'
 }
 //⳹ NOTE !! EXAMPLE ➢ 'https://WebsiteApi': 'Apikey'
