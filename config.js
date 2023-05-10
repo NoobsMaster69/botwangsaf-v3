@@ -59,23 +59,23 @@ global.nomorwa = '0'
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ WM ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 
 global.readMore = readMore
-global.author = 'Ryzn'
-global.namebot = 'NaoBotz'
-global.wm = '© NaoBotz By Milos69'
+global.author = 'Milos 69'
+global.namebot = 'Wangsaff Bot'
+global.wm = '© Wangsaff Bot By Milos69'
 global.media = 'https://telegra.ph/file/5d45a3d1e12726d98c5e4.jpg'
-global.wm = 'Ryzn '
+global.wm = 'Nyolong Mandul 69 Turunan '
 global.watermark = wm
-global.wm2 = 'Ryzn '
+global.wm2 = 'Nyolong Mandul 69 Turunan '
 global.botdate = `⫹⫺ DATE: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 global.bottime = `T I M E : ${wktuwib}`
-global.titlebot = `NaoBotz`
-global.stickpack = 'NaoBotz'
-global.stickauth = `© Ryzn`
+global.titlebot = `Wangsaff Bot`
+global.stickpack = 'Nyolong Mandul 69 Turunan'
+global.stickauth = `© Wangsaff Bot`
 global.week = `${week} ${date}`
 global.wibb = `${wktuwib}`
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ OWNER INFO ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.nameown1= 'Ryzn'
-global.nameown2 = 'Ryzn'
+global.nameown1= 'Milos 69'
+global.nameown2 = 'Milos 69'
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ MEDIA LINK ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 global.Linkgc = 'Bentar'
 global.lynk = 'https://lynk.id/hyuuraofc'
@@ -257,6 +257,7 @@ global.APIKeys = { // APIKey Here
   'https://hardianto.xyz': 'hardianto',
   'https://violetics.pw': 'beta',
   'https://ziy.herokuapp.com' : 'xZiyy'
+  'https://api2.trizy.co' : 'trizy'
 }
 //⳹ NOTE !! EXAMPLE ➢ 'https://WebsiteApi': 'Apikey'
 
