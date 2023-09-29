@@ -1,4 +1,5 @@
 import fs from 'fs'
+import axios from 'axios';
 let { MessageType } = (await import('@adiwajshing/baileys')).default
 let handler = m => m
 
@@ -104,42 +105,36 @@ Dari Abu Ad-Darda’ radhiallahu ‘anhu bahwasanya Rasulullah ﷺ bersabda, “
     
 
 }
-const sentImages = new Set();
-
-// ...
-
-handler.all = async function (m, { isBlocked }) {
-    if (isBlocked) return;
-
-    // ...
-
-    // Cek jika pesan pengguna mengandung kata "coca" dan gambar belum pernah dikirim
-    if (m.text.toLowerCase().includes("coca") && !m.fromMe && !sentImages.has(m.chat)) {
-        // URL gambar di Google Drive
-        const imageUrl = 'https://drive.google.com/drive/u/1/folders/1QTzlA940cb_MnoMw3-XYAAVzUV-t0plu'; // Ganti dengan URL gambar Anda
-    
-        // Kirim gambar dari URL sebagai respons
-        sendImageFromUrl(m, imageUrl);
-    
-        // Tambahkan chat ID ke set gambar yang sudah dikirim
-        sentImages.add(m.chat);
-    
-        // Atur timeout untuk menghapus chat ID dari set setelah beberapa waktu (misalnya, 5 menit)
-        setTimeout(() => {
-            sentImages.delete(m.chat);
-        }, 5 * 60 * 1000); // 5 menit
+const imageUrls = [
+    'https://drive.google.com/file/d/17UV0_EvPt_wh01gkDCmgrgkSk5kL2h5Y/view?usp=drive_link',
+    'https://drive.google.com/file/d/1Em7EC40cfMkoEcKB-wRTDyeep8yL9_5u/view?usp=drive_link',
+    // Tambahkan URL gambar lainnya di sini
+  ];
+  
+  // Fungsi untuk mengirim gambar dari URL
+  async function sendRandomImage(chatId, conn) {
+    try {
+      // Pilih secara acak salah satu URL gambar
+      const randomImageUrl = imageUrls[Math.floor(Math.random() * imageUrls.length)];
+  
+      // Kirim gambar dari URL sebagai respons
+      conn.sendMessage(chatId, {
+        url: randomImageUrl,
+        caption: "Ini adalah respons gambar untuk kata 'coca'",
+      });
+    } catch (error) {
+      console.error('Error sending image:', error);
     }
-    
-    // ...
-    
-    // Fungsi untuk mengirim gambar dari URL
-    function sendImageFromUrl(m, imageUrl) {
-        // Kirim gambar dari URL sebagai respons
-        conn.sendMessage(m.chat, {
-            url: imageUrl,
-            caption: "Ini adalah respons gambar untuk kata 'coca'",
-            quoted: m,
-        });
+  }
+  
+  // Handler untuk semua pesan
+  const handler = async (m, { isBlocked, conn }) => {
+    if (isBlocked) return;
+  
+    // Cek jika pesan pengguna mengandung kata "coca" dan gambar belum pernah dikirim
+    if (m.text.toLowerCase().includes("coca") && !m.fromMe) {
+      // Kirim gambar secara acak dari Google Drive
+      sendRandomImage(m.chat, conn);
     }
 
     // ...
